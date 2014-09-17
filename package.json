@@ -1,0 +1,18 @@
+{
+  "name": "coffee-gists",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --reporter=spec --compilers coffee:coffee-script/register"
+  },
+  "author": "Connor Weng",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "chai": "^1.9.1"
+  },
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  }
+}
